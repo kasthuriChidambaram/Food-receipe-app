@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: url('/images/veggies-bg.jpg') center center / cover no-repeat fixed;
+  min-height: 100vh;
+  position: relative;
+}
+
+.recipe-card-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px #0001;
+  display: flex;
+  min-height: 450px;
+  font-family: 'Georgia', serif;
+  position: relative;
+  z-index: 1;
+}
+
+/* Temporarily remove overlay for debugging */
+
+.recipe-card-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(247, 243, 239, 0.3); 
+  z-index: 0;
+}
+
+
+.recipe-card-left, .recipe-card-right {
+  position: relative;
+  z-index: 1;
+}
+
+.recipe-card-left {
+  background: rgba(107, 35, 35, 0.85); /* maroon with opacity */
+  color: #fff;
+  width: 40%;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.recipe-card-image {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px #0003;
+}
+
+.recipe-card-ingredients-title {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.recipe-card-ingredients-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+}
+
+.recipe-card-right {
+  width: 60%;
+  padding: 2rem 2.5rem;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.recipe-card-title {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: right;
+}
+
+.recipe-card-section-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.5rem 0;
+  font-weight: bold;
+}
+
+.recipe-card-instructions-list {
+  padding-left: 0;
+  font-size: 1.1rem;
+  list-style: none;
+}
+
+.recipe-card-instruction-step {
+  margin-bottom: 1rem;
+}
+
+.home-button {
+  display: block;
+  margin: 2rem auto 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  color: #fff;
+  background-color: #6b2323; /* Maroon color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #8c3a3a; /* Darker maroon */
+}
+
+@media (max-width: 900px) {
+  .recipe-card-container {
+    flex-direction: column;
+    min-height: unset;
+  }
+  .recipe-card-left, .recipe-card-right {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .recipe-card-title {
+    text-align: left;
+  }
+} 

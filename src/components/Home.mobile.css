@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  .home {
+    padding: 1rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .recipe-list {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+} 

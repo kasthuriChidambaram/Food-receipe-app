@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.desktop-nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.desktop-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.search-icon {
+  font-size: 1.2rem;
+}
+
+.mobile-nav {
+  display: none;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+} 
