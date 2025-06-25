@@ -33,14 +33,18 @@ const Home = () => {
       <Header />
       <main className="home">
         <section className="hero">
-          <h1>Truly 100% Vegetarian Recipes — Indian & Global</h1>
+          <h1>South Indian Cuisine: A Legacy of Dynasties and Flavors</h1>
           <p>
-            Discover a collection of authentic vegetarian recipes, rooted in
-            tradition and created with care. From everyday Indian meals to
-            wholesome global dishes and eggless baking, each recipe is tested in
-            my kitchen and shared with step-by-step photos to make cooking feel
-            simple and rewarding. Tried, trusted, and always vegetarian – it's
-            food you can rely on.
+          South Indian cuisine is deeply rooted in history, dating back to the glorious reigns of the Pandyas, Cholas, and Cheras.
+Ancient Sangam literature and temple inscriptions mention daily staples like rice, millet, lentils, curd, and ghee.
+Royal kitchens of the Cholas were known for elaborate feasts with dishes flavored using pepper, turmeric, and coconut.
+The Chera dynasty, with their access to the spice-rich Western Ghats, introduced aromatic curries and coconut-based gravies.
+Trade routes through ancient ports like Poompuhar and Muziris brought in spices and culinary influences from across the seas.
+Meals were traditionally served on banana leaves — a practice that continues even today in festive and everyday settings.
+From soft idlis steamed in earthen pots to fiery Chettinad curries, each region developed its own distinctive flavors.
+Temple towns like Madurai and Thanjavur preserved not only heritage but also sacred food practices like prasadam preparation.
+Even modern-day South Indian kitchens echo the past, with techniques and recipes passed down through generations.
+More than just food, it is a living tradition — a celebration of culture, community, and centuries-old wisdom on every plate.
           </p>
         </section>
         <section className="reader-favorites">
