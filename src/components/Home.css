@@ -8,16 +8,19 @@
 }
 
 .hero h1 {
+  background: rgb(204, 245, 203);
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
 .hero p {
+  background: rgb(204, 245, 203);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 1.1rem;
-  color: #555;
-  max-width: 800px;
-  margin: 0 auto;
+  line-height: 1.8;
 }
 
 .reader-favorites h2 {
@@ -26,12 +29,12 @@
   margin-bottom: 0.5rem;
 }
 
-.reader-favorites > p {
-    margin-bottom: 2rem;
+.reader-favorites>p {
+  margin-bottom: 2rem;
 }
 
 .recipe-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-} 
+}

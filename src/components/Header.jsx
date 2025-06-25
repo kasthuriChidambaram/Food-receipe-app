@@ -11,8 +11,6 @@ const Header = () => {
       <nav className="desktop-nav">
         <a href="/">Home</a>
         <a href="/recipe-index">Recipe Index</a>
-        <a href="/cookbook">Cookbook</a>
-        <a href="/about">About</a>
         <a href="/search">
           <span className="search-icon">🔍</span>
         </a>
